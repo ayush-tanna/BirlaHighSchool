@@ -1,0 +1,6 @@
+framework module Pods_BirlaHighSchoolTests {
+  umbrella header "Pods-BirlaHighSchoolTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

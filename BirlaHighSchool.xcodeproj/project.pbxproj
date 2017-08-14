@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07842863663D13FD93FBBCF5 /* Pods_BirlaHighSchoolTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88D38B215D92531F3B5C2B6D /* Pods_BirlaHighSchoolTests.framework */; };
+		3B10DD2E8ED7C46826134738 /* Pods_BirlaHighSchool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D0C4EAEE1C883F489C6A3AC /* Pods_BirlaHighSchool.framework */; };
+		54B444E3312C8B389247B684 /* Pods_BirlaHighSchoolUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C0937C0590C5F51E41E6DA5 /* Pods_BirlaHighSchoolUITests.framework */; };
+		9A185B141E92DDC2005F16E4 /* suggestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A185B131E92DDC2005F16E4 /* suggestionsViewController.swift */; };
+		9A1DDFBA1E90EFC2007BA6A4 /* facultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1DDFB91E90EFC2007BA6A4 /* facultyViewController.swift */; };
+		9A2C6F3E1E92C450009822C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C6F3D1E92C450009822C1 /* GoogleService-Info.plist */; };
+		9A5896251E9679670055314B /* noticeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5896241E9679670055314B /* noticeTableViewController.swift */; };
+		9A6CC2331F17C77900F8E89F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6CC2321F17C77900F8E89F /* User.swift */; };
+		9A70F9D11F0E90AE004F97F3 /* icalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A70F9D01F0E90AE004F97F3 /* icalViewController.swift */; };
+		9A88E7AE1E8E9C9F00A6FF02 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88E7AC1E8E9C9F00A6FF02 /* TutorialPageViewController.swift */; };
+		9A88E7AF1E8E9C9F00A6FF02 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A88E7AD1E8E9C9F00A6FF02 /* TutorialViewController.swift */; };
+		9A8FA02A1E893A98002F3489 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8FA0291E893A98002F3489 /* webViewController.swift */; };
+		9A9991311E86B114001A7D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9991301E86B114001A7D40 /* AppDelegate.swift */; };
+		9A9991331E86B114001A7D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9991321E86B114001A7D40 /* ViewController.swift */; };
+		9A9991361E86B114001A7D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9991341E86B114001A7D40 /* Main.storyboard */; };
+		9A9991381E86B114001A7D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9991371E86B114001A7D40 /* Assets.xcassets */; };
+		9A99913B1E86B114001A7D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9991391E86B114001A7D40 /* LaunchScreen.storyboard */; };
+		9A9991461E86B114001A7D40 /* BirlaHighSchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9991451E86B114001A7D40 /* BirlaHighSchoolTests.swift */; };
+		9A9991511E86B114001A7D40 /* BirlaHighSchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9991501E86B114001A7D40 /* BirlaHighSchoolUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A9991421E86B114001A7D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9991251E86B114001A7D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A99912C1E86B114001A7D40;
+			remoteInfo = BirlaHighSchool;
+		};
+		9A99914D1E86B114001A7D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A9991251E86B114001A7D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A99912C1E86B114001A7D40;
+			remoteInfo = BirlaHighSchool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C0937C0590C5F51E41E6DA5 /* Pods_BirlaHighSchoolUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirlaHighSchoolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229D843EB192724F63F23668 /* Pods-BirlaHighSchool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirlaHighSchool.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirlaHighSchool/Pods-BirlaHighSchool.release.xcconfig"; sourceTree = "<group>"; };
+		255AFEA4A9D7785C65728FD3 /* Pods-BirlaHighSchool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirlaHighSchool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirlaHighSchool/Pods-BirlaHighSchool.debug.xcconfig"; sourceTree = "<group>"; };
+		515426E98AFC2553B328E65B /* Pods-BirlaHighSchoolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirlaHighSchoolUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirlaHighSchoolUITests/Pods-BirlaHighSchoolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0C4EAEE1C883F489C6A3AC /* Pods_BirlaHighSchool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirlaHighSchool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67CDF3376CFCB59FF1AB325A /* Pods-BirlaHighSchoolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirlaHighSchoolTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirlaHighSchoolTests/Pods-BirlaHighSchoolTests.release.xcconfig"; sourceTree = "<group>"; };
+		88D38B215D92531F3B5C2B6D /* Pods_BirlaHighSchoolTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BirlaHighSchoolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEDF14CBB9FED9383F74136 /* Pods-BirlaHighSchoolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirlaHighSchoolTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BirlaHighSchoolTests/Pods-BirlaHighSchoolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A185B131E92DDC2005F16E4 /* suggestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = suggestionsViewController.swift; sourceTree = "<group>"; };
+		9A1DDFB91E90EFC2007BA6A4 /* facultyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facultyViewController.swift; sourceTree = "<group>"; };
+		9A2C6F3D1E92C450009822C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A5896241E9679670055314B /* noticeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = noticeTableViewController.swift; sourceTree = "<group>"; };
+		9A6CC2321F17C77900F8E89F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9A70F9D01F0E90AE004F97F3 /* icalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icalViewController.swift; sourceTree = "<group>"; };
+		9A88E7AC1E8E9C9F00A6FF02 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		9A88E7AD1E8E9C9F00A6FF02 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		9A8FA0291E893A98002F3489 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = webViewController.swift; path = ../webViewController.swift; sourceTree = "<group>"; };
+		9A99912D1E86B114001A7D40 /* BirlaHighSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirlaHighSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9991301E86B114001A7D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A9991321E86B114001A7D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A9991351E86B114001A7D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A9991371E86B114001A7D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A99913A1E86B114001A7D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A99913C1E86B114001A7D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A9991411E86B114001A7D40 /* BirlaHighSchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirlaHighSchoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9991451E86B114001A7D40 /* BirlaHighSchoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirlaHighSchoolTests.swift; sourceTree = "<group>"; };
+		9A9991471E86B114001A7D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A99914C1E86B114001A7D40 /* BirlaHighSchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BirlaHighSchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A9991501E86B114001A7D40 /* BirlaHighSchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirlaHighSchoolUITests.swift; sourceTree = "<group>"; };
+		9A9991521E86B114001A7D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAAB2FA2F5A106AC87940659 /* Pods-BirlaHighSchoolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BirlaHighSchoolUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BirlaHighSchoolUITests/Pods-BirlaHighSchoolUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A99912A1E86B114001A7D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B10DD2E8ED7C46826134738 /* Pods_BirlaHighSchool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99913E1E86B114001A7D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07842863663D13FD93FBBCF5 /* Pods_BirlaHighSchoolTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9991491E86B114001A7D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54B444E3312C8B389247B684 /* Pods_BirlaHighSchoolUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06029027FC340BC663F4A3AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				255AFEA4A9D7785C65728FD3 /* Pods-BirlaHighSchool.debug.xcconfig */,
+				229D843EB192724F63F23668 /* Pods-BirlaHighSchool.release.xcconfig */,
+				8FEDF14CBB9FED9383F74136 /* Pods-BirlaHighSchoolTests.debug.xcconfig */,
+				67CDF3376CFCB59FF1AB325A /* Pods-BirlaHighSchoolTests.release.xcconfig */,
+				515426E98AFC2553B328E65B /* Pods-BirlaHighSchoolUITests.debug.xcconfig */,
+				DAAB2FA2F5A106AC87940659 /* Pods-BirlaHighSchoolUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9A2ABCFD1EE9331E001881D8 /* launchSc */ = {
+			isa = PBXGroup;
+			children = (
+				9A9991391E86B114001A7D40 /* LaunchScreen.storyboard */,
+			);
+			name = launchSc;
+			sourceTree = "<group>";
+		};
+		9A6334FD1F169E4E00B57AF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A6CC2321F17C77900F8E89F /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A6334FE1F169E5B00B57AF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A5896241E9679670055314B /* noticeTableViewController.swift */,
+				9A9991321E86B114001A7D40 /* ViewController.swift */,
+				9A70F9D01F0E90AE004F97F3 /* icalViewController.swift */,
+				9A185B131E92DDC2005F16E4 /* suggestionsViewController.swift */,
+				9A1DDFB91E90EFC2007BA6A4 /* facultyViewController.swift */,
+				9A88E7AC1E8E9C9F00A6FF02 /* TutorialPageViewController.swift */,
+				9A88E7AD1E8E9C9F00A6FF02 /* TutorialViewController.swift */,
+				9A8FA0291E893A98002F3489 /* webViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A9991241E86B114001A7D40 = {
+			isa = PBXGroup;
+			children = (
+				9A99912F1E86B114001A7D40 /* BirlaHighSchool */,
+				9A9991441E86B114001A7D40 /* BirlaHighSchoolTests */,
+				9A99914F1E86B114001A7D40 /* BirlaHighSchoolUITests */,
+				9A99912E1E86B114001A7D40 /* Products */,
+				06029027FC340BC663F4A3AA /* Pods */,
+				FF760720B05067174FC7C5EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9A99912E1E86B114001A7D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A99912D1E86B114001A7D40 /* BirlaHighSchool.app */,
+				9A9991411E86B114001A7D40 /* BirlaHighSchoolTests.xctest */,
+				9A99914C1E86B114001A7D40 /* BirlaHighSchoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A99912F1E86B114001A7D40 /* BirlaHighSchool */ = {
+			isa = PBXGroup;
+			children = (
+				9A6334FD1F169E4E00B57AF4 /* Model */,
+				9A6334FE1F169E5B00B57AF4 /* Controller */,
+				9A9991301E86B114001A7D40 /* AppDelegate.swift */,
+				9A9991341E86B114001A7D40 /* Main.storyboard */,
+				9A9991371E86B114001A7D40 /* Assets.xcassets */,
+				9A2ABCFD1EE9331E001881D8 /* launchSc */,
+				9A99913C1E86B114001A7D40 /* Info.plist */,
+				9A2C6F3D1E92C450009822C1 /* GoogleService-Info.plist */,
+			);
+			path = BirlaHighSchool;
+			sourceTree = "<group>";
+		};
+		9A9991441E86B114001A7D40 /* BirlaHighSchoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9991451E86B114001A7D40 /* BirlaHighSchoolTests.swift */,
+				9A9991471E86B114001A7D40 /* Info.plist */,
+			);
+			path = BirlaHighSchoolTests;
+			sourceTree = "<group>";
+		};
+		9A99914F1E86B114001A7D40 /* BirlaHighSchoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A9991501E86B114001A7D40 /* BirlaHighSchoolUITests.swift */,
+				9A9991521E86B114001A7D40 /* Info.plist */,
+			);
+			path = BirlaHighSchoolUITests;
+			sourceTree = "<group>";
+		};
+		FF760720B05067174FC7C5EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D0C4EAEE1C883F489C6A3AC /* Pods_BirlaHighSchool.framework */,
+				88D38B215D92531F3B5C2B6D /* Pods_BirlaHighSchoolTests.framework */,
+				1C0937C0590C5F51E41E6DA5 /* Pods_BirlaHighSchoolUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A99912C1E86B114001A7D40 /* BirlaHighSchool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9991551E86B114001A7D40 /* Build configuration list for PBXNativeTarget "BirlaHighSchool" */;
+			buildPhases = (
+				D380A2654D795AA5F174AB37 /* [CP] Check Pods Manifest.lock */,
+				9A9991291E86B114001A7D40 /* Sources */,
+				9A99912A1E86B114001A7D40 /* Frameworks */,
+				9A99912B1E86B114001A7D40 /* Resources */,
+				91D3E4208D57330E8D808924 /* [CP] Embed Pods Frameworks */,
+				7049C15B7364E7E0A17BE7C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirlaHighSchool;
+			productName = BirlaHighSchool;
+			productReference = 9A99912D1E86B114001A7D40 /* BirlaHighSchool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A9991401E86B114001A7D40 /* BirlaHighSchoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A9991581E86B114001A7D40 /* Build configuration list for PBXNativeTarget "BirlaHighSchoolTests" */;
+			buildPhases = (
+				6620B1A30E8C341D28BDE67A /* [CP] Check Pods Manifest.lock */,
+				9A99913D1E86B114001A7D40 /* Sources */,
+				9A99913E1E86B114001A7D40 /* Frameworks */,
+				9A99913F1E86B114001A7D40 /* Resources */,
+				C3A395ADFE6B4D37FDB56BC3 /* [CP] Embed Pods Frameworks */,
+				9CEAFF74DAF58070272E4DA7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A9991431E86B114001A7D40 /* PBXTargetDependency */,
+			);
+			name = BirlaHighSchoolTests;
+			productName = BirlaHighSchoolTests;
+			productReference = 9A9991411E86B114001A7D40 /* BirlaHighSchoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A99914B1E86B114001A7D40 /* BirlaHighSchoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A99915B1E86B114001A7D40 /* Build configuration list for PBXNativeTarget "BirlaHighSchoolUITests" */;
+			buildPhases = (
+				EAC9A4A8A274CFCF1641D4A3 /* [CP] Check Pods Manifest.lock */,
+				9A9991481E86B114001A7D40 /* Sources */,
+				9A9991491E86B114001A7D40 /* Frameworks */,
+				9A99914A1E86B114001A7D40 /* Resources */,
+				64C1024CE50762D2E9DFB932 /* [CP] Embed Pods Frameworks */,
+				82F3627BE24E0925D1E7DCDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A99914E1E86B114001A7D40 /* PBXTargetDependency */,
+			);
+			name = BirlaHighSchoolUITests;
+			productName = BirlaHighSchoolUITests;
+			productReference = 9A99914C1E86B114001A7D40 /* BirlaHighSchoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A9991251E86B114001A7D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					textView,
+				);
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ayush Tanna";
+				TargetAttributes = {
+					9A99912C1E86B114001A7D40 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EM9352UQ23;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+						};
+					};
+					9A9991401E86B114001A7D40 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EM9352UQ23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A99912C1E86B114001A7D40;
+					};
+					9A99914B1E86B114001A7D40 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EM9352UQ23;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A99912C1E86B114001A7D40;
+					};
+				};
+			};
+			buildConfigurationList = 9A9991281E86B114001A7D40 /* Build configuration list for PBXProject "BirlaHighSchool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A9991241E86B114001A7D40;
+			productRefGroup = 9A99912E1E86B114001A7D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A99912C1E86B114001A7D40 /* BirlaHighSchool */,
+				9A9991401E86B114001A7D40 /* BirlaHighSchoolTests */,
+				9A99914B1E86B114001A7D40 /* BirlaHighSchoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A99912B1E86B114001A7D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A99913B1E86B114001A7D40 /* LaunchScreen.storyboard in Resources */,
+				9A2C6F3E1E92C450009822C1 /* GoogleService-Info.plist in Resources */,
+				9A9991381E86B114001A7D40 /* Assets.xcassets in Resources */,
+				9A9991361E86B114001A7D40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99913F1E86B114001A7D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99914A1E86B114001A7D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64C1024CE50762D2E9DFB932 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirlaHighSchoolUITests/Pods-BirlaHighSchoolUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6620B1A30E8C341D28BDE67A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7049C15B7364E7E0A17BE7C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirlaHighSchool/Pods-BirlaHighSchool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F3627BE24E0925D1E7DCDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirlaHighSchoolUITests/Pods-BirlaHighSchoolUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D3E4208D57330E8D808924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirlaHighSchool/Pods-BirlaHighSchool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CEAFF74DAF58070272E4DA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirlaHighSchoolTests/Pods-BirlaHighSchoolTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A395ADFE6B4D37FDB56BC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BirlaHighSchoolTests/Pods-BirlaHighSchoolTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D380A2654D795AA5F174AB37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAC9A4A8A274CFCF1641D4A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A9991291E86B114001A7D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9991331E86B114001A7D40 /* ViewController.swift in Sources */,
+				9A1DDFBA1E90EFC2007BA6A4 /* facultyViewController.swift in Sources */,
+				9A185B141E92DDC2005F16E4 /* suggestionsViewController.swift in Sources */,
+				9A5896251E9679670055314B /* noticeTableViewController.swift in Sources */,
+				9A9991311E86B114001A7D40 /* AppDelegate.swift in Sources */,
+				9A88E7AF1E8E9C9F00A6FF02 /* TutorialViewController.swift in Sources */,
+				9A88E7AE1E8E9C9F00A6FF02 /* TutorialPageViewController.swift in Sources */,
+				9A8FA02A1E893A98002F3489 /* webViewController.swift in Sources */,
+				9A6CC2331F17C77900F8E89F /* User.swift in Sources */,
+				9A70F9D11F0E90AE004F97F3 /* icalViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A99913D1E86B114001A7D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9991461E86B114001A7D40 /* BirlaHighSchoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A9991481E86B114001A7D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9991511E86B114001A7D40 /* BirlaHighSchoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A9991431E86B114001A7D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A99912C1E86B114001A7D40 /* BirlaHighSchool */;
+			targetProxy = 9A9991421E86B114001A7D40 /* PBXContainerItemProxy */;
+		};
+		9A99914E1E86B114001A7D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A99912C1E86B114001A7D40 /* BirlaHighSchool */;
+			targetProxy = 9A99914D1E86B114001A7D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A9991341E86B114001A7D40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A9991351E86B114001A7D40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A9991391E86B114001A7D40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A99913A1E86B114001A7D40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A9991531E86B114001A7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A9991541E86B114001A7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A9991561E86B114001A7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255AFEA4A9D7785C65728FD3 /* Pods-BirlaHighSchool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EM9352UQ23;
+				INFOPLIST_FILE = BirlaHighSchool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birlahighschool.BirlaHighSchool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A9991571E86B114001A7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229D843EB192724F63F23668 /* Pods-BirlaHighSchool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EM9352UQ23;
+				INFOPLIST_FILE = BirlaHighSchool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birlahighschool.BirlaHighSchool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A9991591E86B114001A7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FEDF14CBB9FED9383F74136 /* Pods-BirlaHighSchoolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EM9352UQ23;
+				INFOPLIST_FILE = BirlaHighSchoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birlahighschool.BirlaHighSchoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirlaHighSchool.app/BirlaHighSchool";
+			};
+			name = Debug;
+		};
+		9A99915A1E86B114001A7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67CDF3376CFCB59FF1AB325A /* Pods-BirlaHighSchoolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = EM9352UQ23;
+				INFOPLIST_FILE = BirlaHighSchoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birlahighschool.BirlaHighSchoolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BirlaHighSchool.app/BirlaHighSchool";
+			};
+			name = Release;
+		};
+		9A99915C1E86B114001A7D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 515426E98AFC2553B328E65B /* Pods-BirlaHighSchoolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EM9352UQ23;
+				INFOPLIST_FILE = BirlaHighSchoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birlahighschool.BirlaHighSchoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BirlaHighSchool;
+			};
+			name = Debug;
+		};
+		9A99915D1E86B114001A7D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAB2FA2F5A106AC87940659 /* Pods-BirlaHighSchoolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = EM9352UQ23;
+				INFOPLIST_FILE = BirlaHighSchoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.birlahighschool.BirlaHighSchoolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BirlaHighSchool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A9991281E86B114001A7D40 /* Build configuration list for PBXProject "BirlaHighSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9991531E86B114001A7D40 /* Debug */,
+				9A9991541E86B114001A7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9991551E86B114001A7D40 /* Build configuration list for PBXNativeTarget "BirlaHighSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9991561E86B114001A7D40 /* Debug */,
+				9A9991571E86B114001A7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A9991581E86B114001A7D40 /* Build configuration list for PBXNativeTarget "BirlaHighSchoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A9991591E86B114001A7D40 /* Debug */,
+				9A99915A1E86B114001A7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A99915B1E86B114001A7D40 /* Build configuration list for PBXNativeTarget "BirlaHighSchoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A99915C1E86B114001A7D40 /* Debug */,
+				9A99915D1E86B114001A7D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A9991251E86B114001A7D40 /* Project object */;
+}
